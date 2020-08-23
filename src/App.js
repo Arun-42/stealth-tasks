@@ -1,9 +1,7 @@
 import React, { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import { Modal } from "./components/modal";
 import { Sidebar } from "./components/sidebar";
-import $ from "jquery";
 import AspectRatioOutlinedIcon from "@material-ui/icons/AspectRatioOutlined";
 
 const Logo = ({ ModalToggle, modal }) => {

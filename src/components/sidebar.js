@@ -3,7 +3,6 @@ import "./sidebar.css";
 import EditIcon from "@material-ui/icons/Edit";
 import TextField from "@material-ui/core/TextField";
 import FolderIcon from "@material-ui/icons/Folder";
-import $ from "jquery";
 
 const Folders = ({ folderArr }) => {
   return folderArr.map((folder) => <Folder folder={folder} />);
