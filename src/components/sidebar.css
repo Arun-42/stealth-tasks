@@ -1,0 +1,34 @@
+.sidebar{
+  grid-column: 1;
+  background-color: rgb(216, 216, 216);
+  height: 100vh;
+  width: 100%;
+  display: block;
+}
+
+.box{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: 2em;
+  margin-top: 4em;
+  padding-right: 2em ;
+}
+
+.folder{
+  padding-top:0.5em;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 1px;
+}
+
+.editicon{
+  margin-left: auto;
+}
+.editicon:hover{
+  color:rgb(153, 163, 255)
+}
+
+.foldericon{
+  padding-right: 3px;
+}

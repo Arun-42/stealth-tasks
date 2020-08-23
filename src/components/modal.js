@@ -1,8 +1,9 @@
 import React from 'react';
 import './modal.css'
 
-const Modal = (props) => {
+export const Modal = (props) => {
   return(
     <div className="modal">{props.children}</div>
   )
 }
+
