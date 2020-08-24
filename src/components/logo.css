@@ -1,0 +1,22 @@
+.icon:hover {
+  color: black;
+}
+
+.icon {
+  z-index: 2;
+  align-self: flex-start;
+  position: relative;
+  right: 25px;
+  color: white;
+}
+
+img {
+  position: relative;
+  max-width: 80%;
+  transition-duration: 2s;
+}
+
+img:hover {
+  border-style: solid;
+  border-width: 1px;
+}

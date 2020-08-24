@@ -1,31 +1,8 @@
 .App {
   text-align: center;
 }
-.modal-container{
-  width: 70%;
-  position: flex;
-  margin: auto;
-  justify-content: space-around;
-}
-img{
-  position: relative;
-  max-width: 80%;
-  transition-duration: 2s;
-}
-.icon{
- z-index: 2;
-  align-self: flex-start ;
- position: relative;
- right:25px;
- color:white;
-}
-.icon:hover{
-  color:black;
-}
-img:hover{
-  border-style: solid;
-  border-width: 1px;
-}
+
+
 .blackcolor{
   color:black;
 }

@@ -1,0 +1,6 @@
+.modal-container{
+    width: 70%;
+    position: flex;
+    margin: auto;
+    justify-content: space-around;
+  }
